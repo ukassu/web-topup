@@ -1,7 +1,7 @@
 const priceLists = {
     ml: {
       title: "Mobile Legends",
-      image: "source/MLA.png",
+      image: "MLA.png",
       prices: [
             { amount: "Weekly Diamond Pass", price: "Rp 26.000" },
             { amount: "3 Diamonds", price: "Rp 1.100" },
@@ -26,7 +26,7 @@ const priceLists = {
     },
     genshin: {
       title: "Genshin Impact",
-      image: "source/genshin.png",
+      image: "genshin.png",
       prices: [
             { amount: "Blessing of the Welkin Moon", price: "Rp 60.000" },
             { amount: "60 Genesis Crystals", price: "Rp 13.000" },
@@ -39,7 +39,7 @@ const priceLists = {
     },
     ff: {
       title: "Free Fire",
-      image: "source/FF.png",
+      image: "FF.png",
       prices: [
             { amount: "50 Diamonds", price: "Rp 6.500" },
             { amount: "70 Diamonds", price: "Rp 9.000" },
@@ -54,7 +54,7 @@ const priceLists = {
     },
     valorant: {
       title: "Valorant",
-      image: "source/valo.png",
+      image: "valo.png",
       prices: [
             { amount: "475 VP", price: "Rp 50,000" },
             { amount: "1000 VP", price: "Rp 95,000" },
@@ -66,7 +66,7 @@ const priceLists = {
     },
     steam: {
       title: "Steam Wallet",
-      image: "source/steam.jpg",
+      image: "steam.jpg",
       prices: [
             { amount: "Rp 6.000", price: "Rp 6.200" },
             { amount: "Rp 8.000", price: "Rp 8.100" },
@@ -82,7 +82,7 @@ const priceLists = {
     },
     discord: {
       title: "Discord Nitro",
-      image: "source/discord.jpg",
+      image: "discord.jpg",
       prices: [
             { amount: "Nitro Basic Monthly", price: "Rp 30.000" },
             { amount: "Nitro Boost Monthly", price: "Rp 45.000" },
