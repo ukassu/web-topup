@@ -114,7 +114,7 @@ function displayGamePrices() {
               <div class="card-body">
                 <h5 class="card-title">${item.amount}</h5>
                 <p class="card-text">${item.price}</p>
-                <a href="https:/wa.me/6282249118184?text=${message}" target="blank" class="btn btn-outline-light">Order</a>
+                <a href="./https:/wa.me/6282249118184?text=${message}" target="blank" class="btn btn-outline-light">Order</a>
               </div>
             </div>
           </div>`;
