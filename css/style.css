@@ -1,0 +1,22 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #31363f !important;
+  }
+  .navbar-custom {
+    background-color: #222831;
+  }
+  .mt-custom {
+    margin-top: 8rem;
+  }
+  .bgcustom {
+    background-color: #262c35;
+  }
+  .textcolor {
+    color: #b8bdc2;
+  }
+  .underline {
+    border-bottom: solid 3px #64bed4;
+    padding-bottom: 15px;
+  }

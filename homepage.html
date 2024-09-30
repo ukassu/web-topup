@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="source/icon.png" type="image/x-icon">
+    <title>ukasstore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom shadow p-3">
+        <div class="container">
+          <a class="navbar-brand fs-1 textcolor" href="homepage.html">UKASSTORE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#games">Games</a>
+              </li>
+              <li class="nav-item"></li>
+                <a class="nav-link fs-5" href="#vouchers">Voucher</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#entertainment">Entertainment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+    <div class="container shadow mt-custom"><div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="homepage.html"><img src="source/ukasstore.png" class="d-block w-100" alt=""></a>
+            </div>
+            <div class="carousel-item">
+                <a href="touppage.html?game=ml"><img src="source/emel.jpg" class="d-block w-100" alt=""></a>
+            </div>
+            <div class="carousel-item">
+                <a href="touppage.html?game=ff"><img src="source/efef.jpg" class="d-block w-100" alt=""></a>
+            </div>
+            <div class="carousel-item">
+                <a href="touppage.html?game=genshin"><img src="source/genshin.jpg" class="d-block w-100" alt=""></a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <!-- games -->
+     <div id="games" class="container mt-5">
+        <div><h3 class="text-light mb-5 underline">GAMES</h3></div>
+        <div class="row row-cols-lg-5 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img src="source/MLA.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Mobile Legends</h5>
+                  <a href="touppage.html?game=ml" class="btn btn-outline-light">Price List</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img src="source/FF.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Free Fire</h5>
+                  <a href="touppage.html?game=ff" class="btn btn-outline-light">Price List</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img src="source/genshin.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Genshin Impact</h5>
+                  <a href="touppage.html?game=genshin" class="btn btn-outline-light">Price List</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img src="source/valo.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title text-light">Valorant</h5>
+                  <a href="touppage.html?game=valorant" class="btn btn-outline-light">Price List</a>
+                </div>
+              </div>
+            </div>
+          </div>
+     </div>
+     <!-- voucher -->
+     <div id="vouchers" class="container mt-5">
+      <div><h3 class="text-light mb-5 underline">VOUCHER</h3></div>
+      <div class="row row-cols-lg-5 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 bg-dark">
+              <img src="source/steam.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-light">Steam Wallet</h5>
+                <a href="touppage.html?game=steam" class="btn btn-outline-light">Price List</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- entertainment -->
+    <div id="entertainment" class="container mt-5">
+      <div><h3 class="text-light mb-5 underline">ENTERTAINMENT</h3></div>
+      <div class="row row-cols-lg-5 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 bg-dark">
+              <img src="source/discord.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-light">Discord Nitro</h5>
+                <a href="touppage.html?game=discord" class="btn btn-outline-light">Price List</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- about ukasstore -->
+    <div class="container mt-5">
+      <div><h3 class="text-light mb-4 underline">ABOUT UKASSTORE</h3></div>
+      <div class="row">
+        <div class="col">
+          <p class="text-light">Welcome to UKASSTORE - Your One-Stop Digital Store for Games and Vouchers!
+            At UKASSTORE, we offer a wide selection of games and vouchers at the best prices, ensuring you get great value for your money. With our fast and easy purchasing process, you can quickly find and buy what you need.
+            We take pride in providing exceptional service, available 24/7, so you can shop at any time that suits you. Whether you're looking for the latest games or a specific voucher, we’ve got you covered. Our diverse range ensures that there's something for everyone, tailored to your gaming and digital needs.
+            Shop with confidence at UKASSTORE, where convenience meets quality service—anytime, day or night.</p>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-dark text-center text-white p-3 mt-5">
+      <p>&copy; 2024 ukasstore | All Rights Reserved</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
